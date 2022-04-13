@@ -1,7 +1,7 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
-
+  
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/css/style.css":
 /*!*****************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/css/style.css ***!
@@ -170,7 +170,6 @@ module.exports = function (item) {
 };
 
 /***/ }),
-
 /***/ "./src/css/style.css":
 /*!***************************!*\
   !*** ./src/css/style.css ***!
@@ -530,7 +529,6 @@ function styleTagTransform(css, styleElement) {
 module.exports = styleTagTransform;
 
 /***/ }),
-
 /***/ "./src/js/api.js":
 /*!***********************!*\
   !*** ./src/js/api.js ***!
@@ -721,10 +719,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _js_createCardItem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./js/createCardItem */ "./src/js/createCardItem.js");
 /* harmony import */ var _js_itemsCounter__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./js/itemsCounter */ "./src/js/itemsCounter.js");
 
-
-
-
-
 document.addEventListener('click', async (e) => {
   if (e.target.matches('.heart')) {
     e.target.classList.toggle('is-active');
@@ -752,6 +746,7 @@ const removeLoding = () => {
 const renderItems = async () => {
   loading();
   let index = 0;
+
   const itemsData = await (0,_js_api__WEBPACK_IMPORTED_MODULE_1__["default"])();
   const likesData = await (0,_js_api__WEBPACK_IMPORTED_MODULE_1__.getLikes)();
   (0,_js_itemsCounter__WEBPACK_IMPORTED_MODULE_3__["default"])(itemsData);
@@ -768,7 +763,6 @@ const renderItems = async () => {
 };
 
 renderItems().then(() => {
-
 });
 })();
 

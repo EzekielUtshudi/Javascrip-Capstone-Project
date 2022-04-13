@@ -122,13 +122,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ezekiel/Js-capstone-project.git.git"
+
+    "url": "https://github.com/EzekielUtshudi/Javascrip-Capstone-Project"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ezekiel/Js-capstone-project/issues"
+    "url": "https://github.com/EzekielUtshudi/Javascrip-Capstone-Project/issues/21"
   },
-  "homepage": "https://github.com/Ezekiel/Js-capstone-project.git#readme"
+  "homepage": "https://github.com/EzekielUtshudi/Javascrip-Capstone-Project#readme"
 }
