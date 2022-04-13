@@ -75,7 +75,6 @@ set up on github pages
 - Twitter: [@twitterhandle](https://twitter.com/mishecklivingi2)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/misheck-livingi-a0b536142/)
 
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!

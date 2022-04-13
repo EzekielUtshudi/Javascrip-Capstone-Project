@@ -13,8 +13,7 @@
 }
 
 body {
-  background-color: #000;
-  font-family: var(--main-font);
+  background-color: #fff;
 }
 
 .navbar {
@@ -32,6 +31,7 @@ body {
 .link-lists {
   display: flex;
   list-style: none;
+  margin-left: 280%;
 }
 
 .link-lists > *:not(:last-child) {
@@ -43,7 +43,7 @@ body {
   font-size: 1.5rem;
   padding: 0.5rem;
   margin: 0 3rem;
-  color: #fff;
+  color: orangered;
 }
 
 .link:active,
@@ -89,13 +89,14 @@ footer {
 }
 
 .comment-btn {
-  border: 2px solid #fff;
+  border: 2px solid black;
   padding: 0.4em;
   font-family: var(--main-font);
   font-weight: bold;
-  color: #fff;
+  color: orangered;
   cursor: pointer;
   background-color: transparent;
+  border-radius: 8px;
 }
 
 .comment-and-like {
@@ -106,7 +107,7 @@ footer {
 }
 
 .p-like {
-  color: #fff;
+  color: black;
 }
 
 .heart {
@@ -125,7 +126,6 @@ footer {
 }
 
 .logo {
-  height: 50px;
   width: 150px;
 }
 
