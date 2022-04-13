@@ -1,0 +1,83 @@
+.movie-popup {
+  display: none;
+  background: #fff;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  overflow: auto;
+}
+
+h2 {
+  margin-left: 275px;
+  padding-top: 30px;
+}
+
+.movie-popup .popup-title {
+  text-align: center;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.movie-popup table {
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.popup-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.comments {
+  margin-left: 90px;
+  list-style-type: none;
+}
+
+.comment-title {
+  margin-left: 90px;
+  padding-top: 30px;
+}
+
+#close-popup {
+  display: block;
+  width: 100%;
+  text-align: right;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 20px 30px 0 0;
+}
+
+.com-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 20px;
+  margin-left: 130px;
+}
+
+.com-form input,
+.com-form button {
+  width: 300px;
+  height: 35px;
+  padding-left: 10px;
+  outline: none;
+  background-color: white;
+  color: orangered;
+}
+
+.com-form button {
+  box-shadow: 2px 2px 4px 0;
+  cursor: pointer;
+}
+
+.com-form textarea {
+  width: 400px;
+  height: 155px;
+  outline: none;
+  padding: 5px;
+}

@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+:root {
+  --main-font: "Poppins", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  font-family: var(--main-font);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  margin: 0 4%;
+  padding: 1rem 0.5rem;
+}
+
+.links {
+  margin-left: 2rem;
+}
+
+.link-lists {
+  display: flex;
+  list-style: none;
+}
+
+.link-lists > *:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin: 0 3rem;
+  color: #fff;
+}
+
+.link:active,
+.link:hover {
+  border-bottom: 2px solid currentColor;
+}
+
+footer {
+  width: calc(100% - 24px);
+  padding: 30px 10px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.grid-cards-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 6em;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem 0;
+  transition: 500ms ease-in;
+}
+
+.item:hover {
+  transform: scale(1.05);
+}
+
+.show-image {
+  width: 210px;
+  height: 295px;
+}
+
+.card-title {
+  font-family: var(--main-font);
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.comment-btn {
+  border: 2px solid #fff;
+  padding: 0.4em;
+  font-family: var(--main-font);
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.comment-and-like {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 1em;
+}
+
+.p-like {
+  color: #fff;
+}
+
+.heart {
+  width: 100px;
+  height: 100px;
+  background: url("https://cssanimation.rocks/images/posts/steps/heart.png") no-repeat;
+  background-position: 0 0;
+  cursor: pointer;
+  transition: background-position 1s steps(28);
+  transition-duration: 0s;
+}
+
+.heart.is-active {
+  transition-duration: 1s;
+  background-position: -2800px 0;
+}
+
+.logo {
+  height: 50px;
+  width: 150px;
+}
+
+.link-logo {
+  text-decoration: none;
+}
+
+.loading {
+  width: 160px;
+  height: 160px;
+  border-radius: 150px;
+  border: 15px solid red;
+  border-top-color: rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -80px;
+  margin-left: -80px;
+  animation: loading 1.2s linear infinite;
+  z-index: 999999999;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.mask {
+  background: rgba(0, 0, 0, 0.918);
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 99999999;
+}
