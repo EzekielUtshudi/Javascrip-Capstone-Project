@@ -48,5 +48,4 @@ const renderItems = async () => {
 };
 
 renderItems().then(() => {
-  enableComments();
 });
