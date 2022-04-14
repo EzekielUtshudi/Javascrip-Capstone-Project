@@ -9,7 +9,11 @@ const fetchData = (url, CostumSettings = {}) => {
 
 const getData = () => fetchData(url1);
 
-export const getLikes = () => fetchData(url2);
+export const likeCount = async () => {
+  const response = await fetch('https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/VWIl4IKk3y3x1neav2bU/likes');
+  const data = await response.json();
+  return data;
+};
 
 export const addLikes = async (id) => {
   const settings = {
