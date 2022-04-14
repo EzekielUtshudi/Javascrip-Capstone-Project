@@ -1,56 +1,62 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
+ Gallerioni movies
 
-> Description the project.
-
+> Gallerioni movies is an interactive movie streaming website were movie lovers interact with movies my commenting and liking.
 
 ## Built With
 
 - Major languages
+
+- HTML, CSS & JS
+- Hint, Stylelint, Eslint
 - Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+-bootstrap
+-webpack
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
+
+- clone our repo(https://github.com/EzekielUtshudi/Javascrip-Capstone-Project)
+
+- Run npm start to run the project
+- Run npm run build if you have changes anything to build the bundle.
+- Then open the dist/index.html file. 
 
 ### Prerequisites
 
-### Setup
+```
+node and npm
+```
 
-### Install
+###  install
+
+Getting packages and debuging with Stylelint
+>npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+
+Getting packages and debuging with Webhint
+>npm init -y
+>npm install --save-dev hint@6.x
 
 ### Usage
 
-### Run tests
-
-### Deployment
-
-
+- streaming movies
 
 ## Authors
 
-👤 **Author1**
+👤 **Ezekiel Utshudi**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@EzekielUtshudi](https://github.com/EzekielUtshudi)
+- Twitter: [@UtshudiEzekiel](https://twitter.com/UtshudiEzekiel)
+- LinkedIn: [@UtshudiEzekiel](https://www.linkedin.com/in/ezekiel-utshudi-195782162/)
 
-👤 **Author2**
+👤 **Misheck Livingi**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/misheck12)
+- Twitter: [@twitterhandle](https://twitter.com/mishecklivingi2)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/misheck-livingi-a0b536142/)
 
 ## 🤝 Contributing
 
