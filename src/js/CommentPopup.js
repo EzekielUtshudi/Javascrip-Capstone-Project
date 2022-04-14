@@ -81,7 +81,7 @@ const displayMoviePopup = (movieId) => {
       </tr>
     </table>
     <h3 class="comment-title">
-    Comments
+    Comments(<span class="total-comments">0</span>)
     </h3>
     <ul class="comments">
       fetching comments...

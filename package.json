@@ -6,7 +6,7 @@
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.25.3",
-    "hint": "^6.1.6",
+    "hint": "^6.1.11",
     "html-webpack-plugin": "^5.5.0",
     "jest": "^27.4.3",
     "style-loader": "^3.3.1",
@@ -122,7 +122,6 @@
   },
   "repository": {
     "type": "git",
-
     "url": "https://github.com/EzekielUtshudi/Javascrip-Capstone-Project"
   },
   "keywords": [],
