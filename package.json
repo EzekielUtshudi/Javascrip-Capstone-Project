@@ -19,7 +19,7 @@
     "webpack-dev-server": "^4.3.1"
   },
   "name": "js-capstone-project",
-  "description": "",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -122,7 +122,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/EzekielUtshudi/Javascrip-Capstone-Project"
+    "url": "git+https://github.com/EzekielUtshudi/Javascrip-Capstone-Project.git"
   },
   "keywords": [],
   "author": "",
@@ -130,5 +130,6 @@
   "bugs": {
     "url": "https://github.com/EzekielUtshudi/Javascrip-Capstone-Project/issues/21"
   },
-  "homepage": "https://github.com/EzekielUtshudi/Javascrip-Capstone-Project#readme"
+  "homepage": "https://github.com/EzekielUtshudi/Javascrip-Capstone-Project#readme",
+  "main": "webpack.config.js"
 }
