@@ -55,7 +55,10 @@ footer {
   width: calc(100% - 24px);
   padding: 30px 10px;
   margin: 0 auto;
-  color: #fff;
+  background-color: orangered;
+  color: black;
+  text-align: center;
+  font-weight: bolder;
 }
 
 .grid-cards-container {

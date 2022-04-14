@@ -1,6 +1,6 @@
 import './css/style.css';
 import './css/comment.css';
-import getData, { addLikes, getLikes } from './js/api';
+import getData, { addLikes, likeCount } from './js/api';
 import createCardItem from './js/createCardItem';
 import displayTvShownumbers from './js/itemsCounter';
 import enableComments from './js/CommentPopup';
@@ -31,18 +31,17 @@ const removeLoding = () => {
 
 const renderItems = async () => {
   loading();
-  let index = 0;
   const itemsData = await getData();
-  const likesData = await getLikes();
   displayTvShownumbers(itemsData);
-  likesData.sort((a, b) => a.item_id - b.item_id);
   removeLoding();
+  const likes = await likeCount();
   for (let i = 0; i < itemsData.length; i += 1) {
-    if (likesData[index] !== undefined && itemsData[i].id === likesData[index].item_id) {
-      createCardItem(itemsData[i], likesData[index]);
-      index += 1;
+    let numLikes = 0;
+    numLikes = likes.filter((like) => like.item_id === itemsData[i].id);
+    if (numLikes.length > 0) {
+      createCardItem(itemsData[i], numLikes[0].likes);
     } else {
-      createCardItem(itemsData[i]);
+      createCardItem(itemsData[i], 0);
     }
   }
 };

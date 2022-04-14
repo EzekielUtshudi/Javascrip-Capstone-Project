@@ -1,6 +1,6 @@
 const cardContainer = document.querySelector('.grid-cards-container');
 
-const createCardItem = (item, itemLike = { likes: 0 }) => {
+const createCardItem = (item, itemLike = 0) => {
   const cardElement = document.createElement('article');
   const cardImage = document.createElement('img');
   const cardTitle = document.createElement('h4');
@@ -23,7 +23,7 @@ const createCardItem = (item, itemLike = { likes: 0 }) => {
   commentBtn.id = item.id;
   commentBtn.textContent = 'Comment';
 
-  pLikesTag.textContent = `${itemLike.likes} likes`;
+  pLikesTag.textContent = `${itemLike} likes`;
   cardImage.src = item.image.medium;
   cardTitle.textContent = item.name;
 };

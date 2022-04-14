@@ -1,11 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
- Javascript Capstone 
-> Description the project.
+ Gallerioni movies
 
-this is a javascript capstone project
-
+> Gallerioni movies is an interactive movie streaming website were movie lovers interact with movies my commenting and liking.
 
 ## Built With
 
@@ -13,21 +11,19 @@ this is a javascript capstone project
 
 - HTML, CSS & JS
 - Hint, Stylelint, Eslint
-
 - Frameworks
-
 -bootstrap
 -webpack
-
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
+
+- clone our repo(https://github.com/EzekielUtshudi/Javascrip-Capstone-Project)
+
+- Run npm start to run the project
+- Run npm run build if you have changes anything to build the bundle.
+- Then open the dist/index.html file. 
 
 ### Prerequisites
 
@@ -35,31 +31,18 @@ To get a local copy up and running follow these simple example steps.
 node and npm
 ```
 
-### Setup
+###  install
 
-```
-- clone the repo
-- cd into it
-- npm install
-```
+Getting packages and debuging with Stylelint
+>npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 
-### Install
-
-```
-open the html file
-```
+Getting packages and debuging with Webhint
+>npm init -y
+>npm install --save-dev hint@6.x
 
 ### Usage
 
-```
-navigate through the pages to see different contents
-```
-
-### Deployment
-
-```
-set up on github pages
-```
+- streaming movies
 
 ## Authors
 
