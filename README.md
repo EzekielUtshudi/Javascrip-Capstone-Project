@@ -1,19 +1,23 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Gallerioni movies
 
 > Description the project.
+>This Capstone Project was built with the assistance of my coding partner Misheck Livingi.Gallerioni movies is an interactive movie streaming website where movie lovers interact with movies by commenting and liking, builede with HTML,CSS and Javascript 
 
 
 ## Built With
 
 - Major languages
-- Frameworks
-- Technologies used
+- HTML-JAVASCRIP AND CSS
+
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]([https://livedemo.com](https://precious-starship-c1fbaf.netlify.app/)
+
+![image](https://user-images.githubusercontent.com/81693905/175305559-44768da5-5f0e-4f8e-82da-8b777840c57a.png)
+
 
 
 ## Getting Started
@@ -40,18 +44,17 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Ezekiel Utshudi Eteta**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@ezekielutshudi](https://github.com/EzekielUtshudi)
+- Twitter: [@ezekielutshudi](https://twitter.com/UtshudiEzekiel)
+- LinkedIn: [@ezekielutshudi](https://www.linkedin.com/in/ezekiel-utshudi-195782162/)
 
-👤 **Author2**
+👤 **Misheck Livingi**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
+- GitHub: [@githubhandle](https://github.com/misheck12)
+- Twitter: [@twitterhandle](https://twitter.com/mishecklivingi2)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/misheck-livingi-a0b536142/)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
